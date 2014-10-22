@@ -9,7 +9,7 @@
 	background-size: cover;
 	height: 500px;
 }
-.post{
+.post-ghost{
 	padding:40px;
 	text-align: center;
     width: 300px;
@@ -19,7 +19,7 @@
     float: right;
 
 }
-.post a{
+.post-ghost a{
 	background-color: yellow;
 	text-decoration: none;
 	color: black;
