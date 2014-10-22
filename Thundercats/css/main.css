@@ -10,3 +10,19 @@
 	width: 100%; 
 
 }
+
+.column {
+	float: left;
+	width: 17%;
+	border-right: 2px solid #ccc;
+	margin-right: 20px;
+
+}
+.post h3 a{
+	text-decoration: none;
+	color: black; 
+	background-color: #ccc;
+	padding: 5px 15px;
+	border-bottom: 2px solid gray;
+	border-radius: 5%;
+}
