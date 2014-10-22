@@ -1,0 +1,31 @@
+.container{
+	width:968px;
+	margin: 0 auto;
+}
+
+.top-image{
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.post-ghost{
+	padding:40px;
+	text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: 30px 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    float: right;
+
+}
+.post-ghost a{
+	background-color: yellow;
+	text-decoration: none;
+	color: black;
+	padding: 10px 25px;
+	font: 
+}
+
+
+
