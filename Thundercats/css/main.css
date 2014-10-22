@@ -1,0 +1,12 @@
+.container{
+	width:968px;
+	margin: 0 auto;
+}
+
+.top-image{
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: 50% 100% ;
+	width: 100%; 
+
+}
