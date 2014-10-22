@@ -6,7 +6,26 @@
 .top-image{
 	background-image: url("../images/coworking.jpg");
 	background-repeat: no-repeat;
-	background-size: 50% 100% ;
-	width: 100%; 
+	background-size: cover;
+	height: 500px;
+}
+.post{
+	padding:40px;
+	text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: 30px 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    float: right;
 
 }
+.post a{
+	background-color: yellow;
+	text-decoration: none;
+	color: black;
+	padding: 10px 25px;
+	font: 
+}
+
+
+
