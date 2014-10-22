@@ -3,12 +3,62 @@ body {
 }
 
 .container {
+	width: 800px;
+	margin: 0 auto;
 
-	width: 1000px;
-	border: 1px solid black;
 	
 }
 
-header {
+.startup-header {
+	color: yellow;
+	background-color: black;
+	height: 150px;
+}
+
+.startup-header h1 {
+	padding
+}
+
+.header-nav ul {
+
+	 background-color: black;
+	 list-style-type: none;
+	 display: block;
+	 color: white;
+}
+
+.header-nav li {
+	float: left;
+}
+
+.header-nav	a {
+	display: inline;
+	text-decoration: none;
 
 }
+
+.header-nav a:link {
+	text-decoration: none;
+	color: white;
+}
+.header-nav a:visited {
+	text-decoration: none;
+	color: white;
+
+}
+
+.header-nav a:hover	{
+	text-decoration: none;
+	color: white;
+}
+
+.header-nav a:active {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
