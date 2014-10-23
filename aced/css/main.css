@@ -15,6 +15,13 @@
 	padding-bottom: 75px;
 }
 
+.tagline:after {
+	display: table;
+    clear: both;
+    content: "";
+
+}
+
 .underline {
 	border-bottom: 3px solid yellow;
 	padding-bottom:0px;
@@ -30,11 +37,14 @@
 .startup-header {
 	color: yellow;
 	background-color: black;
-	height: 100px;
+	height: 140px;
 }
 
 .startup-header h1 {
-	padding-top: 10px;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 10px;
 }
 
 .startup-header:after {
@@ -91,23 +101,32 @@
 }
 
 .find {
+	font-size: 25px;
+	float: left;
+	margin-left: 25px;
+	font-weight: bold;
+
+}
+
+.small1 {
 	font-size: 20px;
+	color: white;
 	float: left;
-	margin-left: 25px;
-
-}
-
-.small {
-	font-size: 10px;
-	color: yellow;
-	float: left;
-	padding-top: 8px;
+	padding-top: 6px;
 	margin-left: 25px;
 
 
 }
 
+img {
+	width:100%;
+}
 
+.image-overlay {
+
+	z-index: +1;
+
+}
 
 footer {
 
