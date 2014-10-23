@@ -45,6 +45,7 @@
 	padding-top: 20px;
 	padding-left: 30px;
 	padding-bottom: 10px;
+	letter-spacing: 2px;
 }
 
 .startup-header:after {
@@ -123,15 +124,81 @@ img {
 }
 
 .image-overlay {
-
-	z-index: +1;
+	position:relative;
+	width: 100%;
 
 }
+
+.image-overlay:after {
+	display: table;
+    clear: both;
+    content: "";
+}
+
+.box {
+	position: absolute;
+	top: 40px;
+	left: 650px;
+	
+	width: 40%;
+	height: 90%;
+	opacity: 0.8;
+	background-color: white;
+	box-shadow: 1px 1px 2px 1px
+
+
+}
+
+   
+
+.image-overlay h1 {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px
+}
+
+.Meet-Your-Match {
+		text-align: center;
+		font-size: 40px;
+		font-family: sans-serif;
+		font-weight: bold;
+		
+		
+}
+
+.match-box {
+	margin-left: 30px;
+	margin-right: 40px; 
+	text-align: left;
+	padding-top: 30px; 
+	padding-left: 20px;
+
+}
+
+.match-box p {
+	font-size: 30px;
+}
+
+.create-profile {
+
+	position: absolute;
+	top: 500px;
+	left: 50px;
+	width: 72%;
+	height: 15%;
+	background-color: yellow;
+	box-shadow: 1px 1px 2px 1px yellow;
+
+}
+
+
+
 
 footer {
 
 	background-color: #000;
 	
 }
+
 
 
