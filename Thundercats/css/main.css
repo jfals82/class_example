@@ -1,3 +1,7 @@
+
+body{
+	background-color: black;
+}
 main:after{
 	clear: both;
 	display: table;
@@ -7,6 +11,7 @@ main:after{
 	width:968px;
 	margin: 0 auto;
 	background-color: #fff;
+	border:20px solid black;
 
 }
 
@@ -19,7 +24,7 @@ main:after{
 .post-ghost{
 	padding:40px;
 	text-align: center;
-    width: 300px;
+    width: 280px;
     height: 350px;
     margin: 30px 50px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -28,11 +33,12 @@ main:after{
 }
 .post-ghost a{
 	background-color: yellow;
+	border-bottom: 2px solid yellow;
+	border-radius: 4px;
 	text-decoration: none;
 	color: black;
 	padding: 10px 25px;
-	font: 
-}
+	}
 
 
 .header h1 {
@@ -76,18 +82,25 @@ footer p{
 
 }
 
+.columnwrap{
+	background-color: #fff;
+	width: 968px;
+	height: 200px;
+}
+
 .column {
 	float: left;
 	width: 31%;
 	border-right: 2px solid #ccc;
 	margin-right: 20.5px;
 	background-color: white;
+	padding-left: 12px;
 }
 
 .column3 {
 	float: left;
 	width: 31%;
-	margin-right: 20.5px;
+	/*margin-right: 20.5px;*/
 	background-color: white;
 }
 
@@ -97,6 +110,27 @@ footer p{
 	background-color: #ccc;
 	padding: 10px 10px;
 	border-bottom: 2px solid gray;
-	border-radius: 15%;
+	border-radius: 5px;
 }
 
+.tag-line{
+	font-family:'Merriweather Sans', sans-serif;
+	text-align: center;
+	width:968px;
+	height: 50px;
+	padding-top: .5px;
+	padding-bottom: 20px;
+	background-color: #ccc;
+	color: black; 
+	border-top: 3px solid yellow;
+}
+del {
+
+	color: gray;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
+	
+}
