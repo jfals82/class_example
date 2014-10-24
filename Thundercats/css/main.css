@@ -24,7 +24,7 @@ main:after{
 .post-ghost{
 	padding:40px;
 	text-align: center;
-    width: 300px;
+    width: 280px;
     height: 350px;
     margin: 30px 50px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -33,11 +33,12 @@ main:after{
 }
 .post-ghost a{
 	background-color: yellow;
+	border-bottom: 2px solid yellow;
+	border-radius: 4px;
 	text-decoration: none;
 	color: black;
 	padding: 10px 25px;
-	font: 
-}
+	}
 
 
 .header h1 {
@@ -112,3 +113,24 @@ footer p{
 	border-radius: 5px;
 }
 
+.tag-line{
+	font-family:'Merriweather Sans', sans-serif;
+	text-align: center;
+	width:968px;
+	height: 50px;
+	padding-top: .5px;
+	padding-bottom: 20px;
+	background-color: #ccc;
+	color: black; 
+	border-top: 3px solid yellow;
+}
+del {
+
+	color: gray;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
+	
+}
