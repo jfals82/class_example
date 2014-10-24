@@ -1,70 +1,95 @@
+/*
+
+Asaph Outlaw
+J. Daniel Cox
+
+Team AceD
+General Assembly
+Front End Web Development
+Week 3: Class 1: Git & Bootstrap Layout
+Startup Matchmaker
+
+*/
+
+/*Overall styles*/
+
+* {
+
+	margin: 0;
+	padding: 0;
+
+
+}
+
 
 .container {
 	width: 800px;
-	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
 
 	
 }
 
-.tagline {
+/*Header*/
 
-	background-color: #c6c6c6;
-	height: 50px;
-	border-top: solid 3px #f8ff00;
-	text-align: center;
-	padding-bottom: 75px;
-}
-
-.tagline:after {
-	display: table;
-    clear: both;
-    content: "";
-
-}
-
-.underline {
-	border-bottom: 3px solid yellow;
-	padding-bottom:0px;
-
-}
-
-.line-through {
-	text-decoration:line-through;
-	color: #878787;
-
-}
 
 .startup-header {
 	color: yellow;
 	background-color: black;
-	height: 140px;
+	height: 130px;
 }
 
 .startup-header h1 {
-	font-size: 40px;
-	padding-top: 20px;
-	padding-left: 30px;
-	padding-bottom: 10px;
-	letter-spacing: 2px;
-}
+	
+	font-family: 'Merriweather';
+	font-size: 30px;
+	margin: 0;
+	padding: 20px;
 
-.startup-header:after {
-    display: table;
-    clear: both;
-    content: "";
 }
 
 .header-nav ul {
 
-	 background-color: black;
 	 list-style-type: none;
 	 display: block;
+	 list-style-type: none;
+  	 margin: 0;
+   	 padding: 6px 34px 1px 1px;
 	 color: white;
+	 float: right;
 }
 
-.header-nav {
-	margin-left:296px;
+
+.header-nav li:nth-child(1) {
+  	
+  	text-transform: uppercase;
+  	font-family: 'Oswald', sans-serif;
+  	font-weight: bold;
+
 }
+
+
+.header-nav li:nth-child(2) {
+	
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+
+ 
+}
+
+
+
+.header-nav li {
+	
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	display: inline;
+	margin-left: 15px;
+	
+
+}
+
 
 
 
@@ -94,109 +119,212 @@
 	color: white;
 }
 
-.header-nav:after {
 
-    display: table;
-    clear: both;
-    content: "";
-}
+/*tagline section*/
 
-.find {
-	font-size: 25px;
-	float: left;
-	margin-left: 25px;
-	font-weight: bold;
+
+del {  
+	
+	color: #646262;
 
 }
 
-.small1 {
-	font-size: 20px;
-	color: white;
-	float: left;
-	padding-top: 6px;
-	margin-left: 25px;
+.are-underline {
+	border-bottom: yellow 3px solid;
+}
+
+.tagline {
+
+	background-color: #c6c6c6;
+	height: 65px;
+	border-top: solid 3px #f8ff00;
+	text-align: center;
+	vertical-align: middle;
+
 
 
 }
 
-img {
-	width:100%;
+.tagline h2 {
+
+	font-family: 'Merriweather';
+	font-size: 22px ;
+	font-variant: italic;
+
 }
+
+
+.tagline:after {
+
+content: "";
+display: table;
+clear: both;
+
+
+
+}
+
+/*Meet you match section*/
+
+.main-image {
+
+	background-image: url(../img/coworking.jpg);
+	background-color: #cccccc;
+	height: 450px;
+	width: 100%
+
+}
+
+.main-image h2 {
+	margin: 0;
+}
+
 
 .image-overlay {
-	/*position:relative;*/
-	background-image: url(../img/coworking.jpg);
-	height: 450px;
-	width:100%;
 
-}
-
-.image-overlay:after {
-	display: table;
-    clear: both;
-    content: "";
-}
-
-.box {
+	height: 400px;
+	width: 315px;
 	float: right;
+	 background: rgba(255,255,255,0.7);
+	/*	background: rgba(0,0,0,0.5);*/
 	margin: 23px;
-	top: 40px;
-	left: 650px;
-	width: 40%;
-	height: 90%;
-	box-shadow: 1px 1px 2px 1px;
-	background-color: rgba(255, 255, 255, .5);
 }
 
-   
 
-.image-overlay h1 {
-	font-weight: bold;
-	text-align: center;
-	padding-top: 30px
-}
+.Meet-Match {
 
-.Meet-Your-Match {
-		text-align: center;
-		font-size: 40px;
-		font-family: sans-serif;
-		font-weight: bold;
-		
-		
-}
-
-.match-box {
-	margin-left: 30px;
-	margin-right: 40px; 
-	text-align: left;
-	padding-top: 30px; 
-	padding-left: 20px;
-
-}
-
-.match-box p {
-	font-size: 30px;
-}
-
-.create-profile {
-
-	top: 500px;
-	left: 50px;
-	width: 72%;
-	height: 15%;
-	background-color: yellow;
-	box-shadow: 1px 1px 2px 1px yellow;
+	padding: 30px;
 
 }
 
 
+.Meet-Match h2 {
 
-
-footer {
-
-	background-color: #000;
+	font-family: 'Source Sans Pro';
+	font-size: 30px ;
+	font-weight: bold;	
 	
 }
 
+
+button {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	background-color: yellow;
+	border-color: yellow;
+	height: 40px;
+	width: 250px;
+}
+
+
+button:hover {
+	text-decoration: none;
+	color: black;
+	background-color: yellow;
+	border-color: yellow;
+}
+button:link {
+	text-decoration: none;
+	color: black;
+	background-color: yellow;
+	border-color: yellow;
+}
+
+button:visited {
+	text-decoration: none;
+	color: black;
+	background-color: yellow;
+	border-color: yellow;
+
+}
+
+button:hover	{
+	text-decoration: none;
+	color: black;
+	background-color: yellow;
+	border-color: yellow;
+}
+
+.header-nav:active {
+	text-decoration: none;
+	color: white;
+
+
+/* Columns Section */
+
+
+
+
+/* bootstrap row reset*/
+
+.row {
+
+	margin: 0; 
+}
+
+/* bootstrap row reset*/
+
+
+.row {
+ 
+	height: 300px
+
+}
+
+
+
+.col-sm-4 {
+
+ border-right: 2px solid #ddd;
+ padding: 20px;
+ margin-top: 20px;
+
+}
+
+.sign-up {
+	font-family: 'Merriweather';
+	font-size:  25px;
+	font-weight: 800;
+
+
+}
+
+
+.col-sm-4 p {
+	
+/*	margin-bottom: 40px;*/
+	font-family: 'Source Sans Pro';
+	font-size: 18px;
+
+	
+
+}
+
+.col-sm-4:last-child {
+
+	border: none;
+
+}
+
+/* footer section*/
+
+footer {
+
+	height: 55px ;
+	background-color: #000;
+	vertical-align: middle;
+	color: #fff;
+}
+
+
+.copyright {
+
+	vertical-align: middle;
+	padding-top: 16px;
+	padding-left: 20px;
+
+}
 
 

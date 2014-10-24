@@ -1,83 +1,76 @@
+<!-- 
+
+Asaph Outlaw
+J. Daniel Cox
+
+Team AceD
+General Assembly
+Front End Web Development
+Week 3: Class 1: Git Bootstrap Layout
+Startup Matchmaker 
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Startup Matchmaker</title>
-	<link rel="stylesheet" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
-
-
 <body>
+<!--  Main Container -->
 	<div class="container">
+
+		<!-- Header -->
 
 <header class="startup-header">
 
-
 <h1>Startup Matchmaker</h1>
-
 
 <nav class="header-nav">
 	<ul>
-		<li><a href="#" class="find">Find Developers</li></a>
-		<li><a href="#" class="find">Find Designers</li></a>
-		<li><a href="#" class="small1">How it Works</li></a>
-		<li><a href="#" class="small1">Our Team</li></a>
-		<li><a href="#" class="small1">Blog</li></a>
-	</ul>
-
+		<li><a href="#">Find Developers</li></a>
+		<li><a href="#">Find Designers</li></a>
+		<li><a href="#">How it Works</li></a>
+		<li><a href="#">Our Team</li></a>
+		<li><a href="#">Blog</li></a>
 </nav>
-
 </header>
 
+<!-- tagline section -->
 
+<div class="tagline"> <h2><b><i>Because two brains <del>taste</del> <span class="are-underline">are</span> better than one</b></i></h2></div>
 
-<main>
+<!-- Meet Your Match section -->
 
-	<div class="tagline"><h2><i>Because two brains <span class="line-through">taste</span> <span class="underline">are</span> better than one.</i></h2>
-	</div>
+<main class="main-image">
 
-	<div class="image-overlay">
+	<section class="image-overlay">
 
-
-	<section class="box">
-
-		<section class="match-box">
-
-			<span class="Meet-Your-Match">Meet Your Match!</br></span>
-
-			<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
-			
-
-			<button class="create-profile">
-				Create A Profile
-			</button>
-		</section>
-
-
+	<div class="Meet-Match">
+		<div> <h2 >Meet Your Match!</h2>
+	<p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other. </p> <br> <button>Create a Profile</button>
+	 </div>
+	</div>	
+	
 </section>
-
-</div>
-
-<div class="row">
-	<div class="col-sm-4">Create a Profile</div>
-	<div class="col-sm-4">Find a Developer</div>
-	<div class="col-sm-4">Find a Designer</div>
-</div>
-
-
-
 
 </main>
 
+<!--  Col section -->
+<div class="row">
+	<div class="col-sm-4"><h3 class="sign-up">Create a Profile</h3> <p>Are you a Designer? Developer? Put yourself out there so that  others can find you ! </p><button class="btn btn-primary">Sign up now</button></div>
+	<div class="col-sm-4"><h3 class="sign-up">Find a Developer</h3> <p>Looking for a Fantastic developer to work with on the next big thing? Look no further.</p><button class="btn btn-primary">Start You Search</button></div>
+	<div class="col-sm-4"><h3 class="sign-up">Find a Designer</h3><p>Need Someone who can make a product intuitive and appealing? Get ready?</p> <br> <button class="btn btn-primary">Start You Search</button></div>
+</div>
 
+<!--  Footer -->
 <footer>
-	
-
-2013 Startup Matchmaker. Made in NY. 
-
+<div class="copyright"><p> &copy; 2013 Startup Matchmaker. Made in NY.</p></div>
 </footer>
 
 </body>
