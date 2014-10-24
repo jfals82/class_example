@@ -24,6 +24,8 @@
 }
 .post-ghost a{
 	background-color: yellow;
+	border-bottom: 2px solid yellow;
+	border-radius: 15%;
 	text-decoration: none;
 	color: black;
 	padding: 10px 25px;
@@ -96,3 +98,22 @@ footer p{
 	border-radius: 15%;
 }
 
+.tag-line{
+	font-family:'Merriweather Sans', sans-serif;
+	text-align: center;
+	width:968px;
+	height: 50px;
+	padding-top: .5px;
+	padding-bottom: 20px;
+	background-color: #ccc;
+	color: black; 
+	border-top: 3px solid yellow;
+}
+del {
+
+	color: gray;
+}
+
+ins {
+	color: yellow;
+}
