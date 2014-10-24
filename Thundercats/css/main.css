@@ -1,4 +1,8 @@
-
+main:after{
+	clear: both;
+	display: table;
+	content: ""
+}
 .container{
 	width:968px;
 	margin: 0 auto;
@@ -57,7 +61,7 @@
 
 footer{
 	font-family:'Source Sans Pro', sans-serif;
-	margin: 170px 0 0 220px;
+	/*margin: 170px 0 0 220px;*/
 
 	width:968px;
 	height: 50px;
