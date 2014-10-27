@@ -48,6 +48,13 @@ Startup Matchmaker
 
 }
 
+.startup-header:after {
+
+content: "";
+display: table;
+clear: both;
+}
+
 .header-nav ul {
 
 	 list-style-type: none;
@@ -176,8 +183,22 @@ clear: both;
 
 }
 
+.main-image:after {
+
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .main-image h2 {
 	margin: 0;
+}
+
+.Meet-Match p {
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 8px;
+
 }
 
 
@@ -190,6 +211,12 @@ clear: both;
 	 background: rgba(255,255,255,0.7);
 	/*	background: rgba(0,0,0,0.5);*/
 	margin: 23px;
+}
+
+.image-overlay:after {
+content: "";
+display: table;
+clear: both;
 }
 
 
@@ -208,9 +235,23 @@ clear: both;
 	
 }
 
+.Meet-Match:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+p {
+	line-height:30px;
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 8px;
+}
+
 #Meet-Match  {
 	box-shadow: 0px 3px 0px #BEBA0F;
-	margin-top: 120px;
+	margin-top: 10px;
 	padding-top: 12px;
 	text-align: center;
 	margin-left: auto;
@@ -256,7 +297,11 @@ clear: both;
 	border-color: yellow;
 }
 
-
+p:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 
 
@@ -264,6 +309,7 @@ clear: both;
 .header-nav:active {
 	text-decoration: none;
 	color: white;
+}
 
 
 /* Columns Section */
