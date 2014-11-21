@@ -1,6 +1,12 @@
-
+*{box-sizing:border-box}
 body{
 	background-color: black;
+}
+.btn a{
+	display: none;
+}
+main{
+	background-color: white;
 }
 main:after{
 	clear: both;
@@ -10,9 +16,6 @@ main:after{
 .container{
 	width:968px;
 	margin: 0 auto;
-	background-color: #fff;
-	border:20px solid black;
-
 }
 
 .top-image{
@@ -29,7 +32,6 @@ main:after{
     margin: 30px 50px;
     background-color: rgba(255, 255, 255, 0.8);
     float: right;
-
 }
 .post-ghost a{
 	background-color: yellow;
@@ -38,68 +40,42 @@ main:after{
 	text-decoration: none;
 	color: black;
 	padding: 10px 25px;
-	}
-
+}
 
 .header h1 {
 	font-family:'Merriweather Sans', sans-serif;
 	color: yellow;
 	font-size: 36px;
-
-
-
 }
 
 .header nav a{
 	font-family:'Oswald', sans-serif;
 	font-size: 30px;
-
-
 }
 
 .container-2 nav a{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 28px;
-
 }
-
 
 footer{
 	font-family:'Source Sans Pro', sans-serif;
-	/*margin: 170px 0 0 220px;*/
-
-	width:968px;
 	height: 50px;
 	background-color: black;
-	color: #fff; 
-	
+	color: #fff; 	
 }
-
 footer p{
 	position: relative;
 	top: 16px;
 	margin-left: 20px;
-
 }
-
-.columnwrap{
-	background-color: #fff;
-	width: 968px;
-	height: 200px;
-}
-
 .column {
 	float: left;
-	width: 250px;
-	border-right: 2px solid #ccc;
-	margin-right: 20.5px;
-	background-color: white;
-	padding-left: 35px;
-	padding-right: 20px;
+	width: 33%;
 	font-size: 21;
-
 }
 .post h3 a{
+	width: 100%;
 	text-decoration: none;
 	color: black; 
 	background-color: #ccc;
@@ -108,85 +84,37 @@ footer p{
 	border-radius: 5px;
 	font-size: 21;
 }
-
 .post p{
+	width: 100%;
 	padding: 0 30px 40px 0;
 	margin-top: 10px;
 }
 
 .post h2{
+	width: 100%;
 	padding-right: 30px;
 	margin-bottom: 0px;
-}
-
-.column2 {
-	float: left;
-	width: 250px;
-	border-right: 2px solid #ccc;
-	margin-right: 20.5px;
-	background-color: white;
-	padding-left: 30px;
-	padding-right: 20px;
-	font-size: 21;
-}
-
-.column2 .post h2{
-	padding-right: 30px;
-	margin-bottom: 0px;
-}
-
-.column2 .post h3 a{ 
-	text-decoration: none;
-	color: black;
-	background-color: #ccc;
-	padding: 15px 10px;
-	border-bottom: 2px solid gray;
-	border-radius: 5px;
-	font-size: 21;
-}
-
-.column2 .post p{
-	padding: 0 30px 40px 0;
-	margin-top: 10px;
-}
-
-.column3 {
-	float: left;
-	width: 250px;
-	background-color: white;
-	font-size: 22;
-	padding-left: 35px;
-	padding-right: 20px;
-}
-
-.column3 .post h3 a{ 
-	text-decoration: none;
-	color: black;
-	background-color: #ccc;
-	padding: 15px 10px;
-	border-bottom: 2px solid gray;
-	border-radius: 5px;
-	font-size: 21;
-}
-.column3 .post h2{
-	padding-right: 20px;
-	margin-bottom: 0px;
-	}
-
-.column3 .post p{
-	padding: 0 13px 40px 0;
 }
 
 .tag-line{
 	font-family:'Merriweather Sans', sans-serif;
 	text-align: center;
-	width:968px;
 	height: 50px;
 	padding-top: .5px;
 	padding-bottom: 20px;
 	background-color: #ccc;
 	color: black; 
 	border-top: 3px solid yellow;
+
+	font-family: 'Merriweather Sans', sans-serif;
+text-align: center;
+height: inherit;
+/* padding-top: .5px; */
+/* padding-bottom: inherit; */
+background-color: #ccc;
+color: black;
+border-top: 3px solid yellow;
+padding: 5px;
 }
 del {
 
@@ -197,4 +125,51 @@ ins {
 	text-decoration: none;
 	border-bottom: 3px solid yellow;
 	
+}
+
+@media(max-width: 420px){
+	.container{
+		width: 100%
+	}
+	.top-image{
+		width: 100%
+	}
+	.column{
+		width: 100%;
+		border-bottom: 2px solid gray;
+
+	}
+	.copy{
+		padding: 40px;
+	}
+	.post{
+		text-align: center;
+	}
+	.post a{
+		text-align: center;
+	}
+	.post-ghost{
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.8);
+		width: 100%;
+		margin: 0;
+	}
+	.tag-line{
+		font-family: 'Merriweather Sans', sans-serif;
+			padding:0;
+
+	}
+	h2{
+		margin: 0;
+	}
+	.btn a{
+	display: block;
+	
+	}
+	.container-2{
+		display: none;
+	}
+
+	
+
 }
